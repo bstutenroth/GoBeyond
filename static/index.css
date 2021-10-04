@@ -53,6 +53,7 @@ button, .btn{
   font-family: 'Karla', sans-serif;
   font-style: italic;
   font-size: 330%;
+  text-decoration: none;
 }
 
 .nav{
@@ -160,4 +161,118 @@ img{
 
 .item:hover {
   transform: scale(1.04);
+}
+
+.topLeftSquare{
+  width: 1500px;
+  height: 650px;
+  background-color: rgb(245, 203, 167, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.InspoDesign1{
+  margin-top: 6.5%;
+  margin-left: 35%;
+  z-index: 1;
+}
+
+.InspoDesign1Image{
+  height: 670px;
+  width: 575px;
+  position: fixed;
+  top: 17%;
+  left: 20%;
+  z-index: 0;
+  border: 5px solid white;
+}
+
+.InspoDesign1Header{
+  font-size: 320%;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.InspoDesign1Price{
+  font-size: 170%;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.InspoDesign1SubText{
+  font-size: 130%;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.InspoDesign1Button{
+  margin-left: 42%;
+  background-color: rgb(0, 141, 211, 0.5);
+}
+
+.bottomRightSquare{
+  width: 1150px;
+  height: 650px;
+  background-color: rgb(245, 203, 167, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.InspoDesign2{
+  position: fixed;
+  top: 22%;
+  left: 18%;
+  z-index: 0;
+}
+
+.InspoDesign2Image{
+  height: 670px;
+  width: 575px;
+  margin-top: 2%;
+  margin-left: 50%;
+  z-index: 1;
+  border: 5px solid white;
+}
+
+.InspoDesign2Header{
+  font-size: 320%;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.InspoDesign2Price{
+  font-size: 170%;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.InspoDesign2SubText{
+  font-size: 130%;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.InspoDesign2Button{
+  margin-left: 32%;
+  background-color: rgb(0, 141, 211, 0.5);
+}
+
+.plannerHeading{
+  color: black;
+  display: block;
+  padding-top: 200px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
 }
